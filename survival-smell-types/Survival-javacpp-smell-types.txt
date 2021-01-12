@@ -1,0 +1,333 @@
+[1] "Survival analysis results for each smell type or variable for javacpp"
+
+[1] "Result for: Smelly"
+[1] "========================================================================="
+Call:
+coxph(formula = Surv(SurvivalTime, inducingflag) ~ get(svar), 
+    data = mydata)
+
+  n= 3024, number of events= 194 
+
+            coef exp(coef) se(coef)     z Pr(>|z|)    
+get(svar) 0.8663    2.3781   0.1563 5.541    3e-08 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+          exp(coef) exp(-coef) lower .95 upper .95
+get(svar)     2.378     0.4205      1.75     3.231
+
+Concordance= 0.572  (se = 0.016 )
+Likelihood ratio test= 27.18  on 1 df,   p=2e-07
+Wald test            = 30.71  on 1 df,   p=3e-08
+Score (logrank) test = 32.59  on 1 df,   p=1e-08
+
+[1] ""
+[1] "Covariate :Smelly"
+[1] "exp(coef) :2.37814240469108"
+[1] "p-value (Cox hazard model) :3.00364762874105e-08"
+[1] "p-value (Porportional hazards assumption) :0.164283990273178"
+[1] ""
+[1] "Result for: LOC"
+[1] "========================================================================="
+Call:
+coxph(formula = Surv(SurvivalTime, inducingflag) ~ get(svar), 
+    data = mydata)
+
+  n= 3024, number of events= 194 
+
+            coef exp(coef) se(coef)     z Pr(>|z|)    
+get(svar) 0.8663    2.3781   0.1563 5.541    3e-08 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+          exp(coef) exp(-coef) lower .95 upper .95
+get(svar)     2.378     0.4205      1.75     3.231
+
+Concordance= 0.572  (se = 0.016 )
+Likelihood ratio test= 27.18  on 1 df,   p=2e-07
+Wald test            = 30.71  on 1 df,   p=3e-08
+Score (logrank) test = 32.59  on 1 df,   p=1e-08
+
+[1] ""
+[1] "Covariate :LOC"
+[1] "exp(coef) :2.37814240469108"
+[1] "p-value (Cox hazard model) :3.00364762874105e-08"
+[1] "p-value (Porportional hazards assumption) :0.164283990273178"
+[1] ""
+[1] "Result for: prev_fixing"
+[1] "========================================================================="
+Call:
+coxph(formula = Surv(SurvivalTime, inducingflag) ~ get(svar), 
+    data = mydata)
+
+  n= 3024, number of events= 194 
+
+            coef exp(coef) se(coef)     z Pr(>|z|)    
+get(svar) 0.8663    2.3781   0.1563 5.541    3e-08 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+          exp(coef) exp(-coef) lower .95 upper .95
+get(svar)     2.378     0.4205      1.75     3.231
+
+Concordance= 0.572  (se = 0.016 )
+Likelihood ratio test= 27.18  on 1 df,   p=2e-07
+Wald test            = 30.71  on 1 df,   p=3e-08
+Score (logrank) test = 32.59  on 1 df,   p=1e-08
+
+[1] ""
+[1] "Covariate :prev_fixing"
+[1] "exp(coef) :2.37814240469108"
+[1] "p-value (Cox hazard model) :3.00364762874105e-08"
+[1] "p-value (Porportional hazards assumption) :0.164283990273178"
+[1] ""
+[1] "Result for: ExcessiveInterlangCommunication"
+[1] "========================================================================="
+Call:
+coxph(formula = Surv(SurvivalTime, inducingflag) ~ get(svar), 
+    data = mydata)
+
+  n= 3024, number of events= 194 
+
+            coef exp(coef) se(coef)     z Pr(>|z|)  
+get(svar) 0.4730    1.6048   0.2054 2.303   0.0213 *
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+          exp(coef) exp(-coef) lower .95 upper .95
+get(svar)     1.605     0.6231     1.073       2.4
+
+Concordance= 0.522  (se = 0.012 )
+Likelihood ratio test= 4.75  on 1 df,   p=0.03
+Wald test            = 5.3  on 1 df,   p=0.02
+Score (logrank) test = 5.4  on 1 df,   p=0.02
+
+[1] ""
+[1] "Covariate :ExcessiveInterlangCommunication"
+[1] "exp(coef) :1.60483289172995"
+[1] "p-value (Cox hazard model) :0.0212896944229757"
+[1] "p-value (Porportional hazards assumption) :0.0892216303890443"
+[1] ""
+[1] "Result for: Toomuchclustring"
+[1] "========================================================================="
+Call:
+coxph(formula = Surv(SurvivalTime, inducingflag) ~ get(svar), 
+    data = mydata)
+
+  n= 3024, number of events= 194 
+
+            coef exp(coef) se(coef)     z Pr(>|z|)    
+get(svar) 1.2364    3.4431   0.2875 4.301  1.7e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+          exp(coef) exp(-coef) lower .95 upper .95
+get(svar)     3.443     0.2904      1.96     6.048
+
+Concordance= 0.521  (se = 0.008 )
+Likelihood ratio test= 13.23  on 1 df,   p=3e-04
+Wald test            = 18.5  on 1 df,   p=2e-05
+Score (logrank) test = 20.98  on 1 df,   p=5e-06
+
+[1] ""
+[1] "Covariate :Toomuchclustring"
+[1] "exp(coef) :3.44314839101563"
+[1] "p-value (Cox hazard model) :1.69991971324466e-05"
+[1] "p-value (Porportional hazards assumption) :0.31390539813018"
+[1] ""
+[1] "Result for: ToomuchScattering"
+[1] "========================================================================="
+Call:
+coxph(formula = Surv(SurvivalTime, inducingflag) ~ get(svar), 
+    data = mydata)
+
+  n= 3024, number of events= 194 
+
+            coef exp(coef) se(coef)     z Pr(>|z|)
+get(svar) 0.2701    1.3101   0.1928 1.401    0.161
+
+          exp(coef) exp(-coef) lower .95 upper .95
+get(svar)      1.31     0.7633    0.8978     1.912
+
+Concordance= 0.514  (se = 0.013 )
+Likelihood ratio test= 1.85  on 1 df,   p=0.2
+Wald test            = 1.96  on 1 df,   p=0.2
+Score (logrank) test = 1.97  on 1 df,   p=0.2
+
+[1] ""
+[1] "Covariate :ToomuchScattering"
+[1] "exp(coef) :1.31010761824168"
+[1] "p-value (Cox hazard model) :0.161231473918159"
+[1] "p-value (Porportional hazards assumption) :0.163811331237339"
+[1] ""
+[1] "Result for: UnusedMethodDeclaration"
+[1] "========================================================================="
+Call:
+coxph(formula = Surv(SurvivalTime, inducingflag) ~ get(svar), 
+    data = mydata)
+
+  n= 3024, number of events= 194 
+
+            coef exp(coef) se(coef)     z Pr(>|z|)    
+get(svar) 1.3546    3.8754   0.2079 6.516 7.22e-11 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+          exp(coef) exp(-coef) lower .95 upper .95
+get(svar)     3.875      0.258     2.578     5.825
+
+Concordance= 0.54  (se = 0.011 )
+Likelihood ratio test= 30.79  on 1 df,   p=3e-08
+Wald test            = 42.46  on 1 df,   p=7e-11
+Score (logrank) test = 49.35  on 1 df,   p=2e-12
+
+[1] ""
+[1] "Covariate :UnusedMethodDeclaration"
+[1] "exp(coef) :3.87539617660234"
+[1] "p-value (Cox hazard model) :7.21833589688298e-11"
+[1] "p-value (Porportional hazards assumption) :0.00782490435379524"
+[1] ""
+[1] "Result for: UnusedMethodImplementation"
+[1] "========================================================================="
+[1] ""
+[1] "Covariate :UnusedMethodImplementation count: 0"
+[1] "exp(coef) : NA"
+[1] "p-value (Cox hazard model) : NA"
+[1] "p-value (Porportional hazards assumption) : NA"
+[1] ""
+[1] "Result for: UnusedParameter"
+[1] "========================================================================="
+Call:
+coxph(formula = Surv(SurvivalTime, inducingflag) ~ get(svar), 
+    data = mydata)
+
+  n= 3024, number of events= 194 
+
+            coef exp(coef) se(coef)     z Pr(>|z|)   
+get(svar) 2.2544    9.5297   0.7158 3.149  0.00164 **
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+          exp(coef) exp(-coef) lower .95 upper .95
+get(svar)      9.53     0.1049     2.343     38.76
+
+Concordance= 0.506  (se = 0.004 )
+Likelihood ratio test= 5.4  on 1 df,   p=0.02
+Wald test            = 9.92  on 1 df,   p=0.002
+Score (logrank) test = 14.9  on 1 df,   p=1e-04
+
+[1] ""
+[1] "Covariate :UnusedParameter"
+[1] "exp(coef) :9.52974285647146"
+[1] "p-value (Cox hazard model) :0.00163621706014124"
+[1] "p-value (Porportional hazards assumption) :0.340049262668216"
+[1] ""
+[1] "Result for: AssumingSafeReturnValue"
+[1] "========================================================================="
+[1] ""
+[1] "Covariate :AssumingSafeReturnValue count: 0"
+[1] "exp(coef) : NA"
+[1] "p-value (Cox hazard model) : NA"
+[1] "p-value (Porportional hazards assumption) : NA"
+[1] ""
+[1] "Result for: ExcessiveObjects"
+[1] "========================================================================="
+[1] ""
+[1] "Covariate :ExcessiveObjects count: 0"
+[1] "exp(coef) : NA"
+[1] "p-value (Cox hazard model) : NA"
+[1] "p-value (Porportional hazards assumption) : NA"
+[1] ""
+[1] "Result for: NotHandlingExceptions"
+[1] "========================================================================="
+[1] ""
+[1] "Covariate :NotHandlingExceptions count: 0"
+[1] "exp(coef) : NA"
+[1] "p-value (Cox hazard model) : NA"
+[1] "p-value (Porportional hazards assumption) : NA"
+[1] ""
+[1] "Result for: NotCachingObjects"
+[1] "========================================================================="
+[1] ""
+[1] "Covariate :NotCachingObjects count: 0"
+[1] "exp(coef) : NA"
+[1] "p-value (Cox hazard model) : NA"
+[1] "p-value (Porportional hazards assumption) : NA"
+[1] ""
+[1] "Result for: NotSecuringLibraries"
+[1] "========================================================================="
+Call:
+coxph(formula = Surv(SurvivalTime, inducingflag) ~ get(svar), 
+    data = mydata)
+
+  n= 3024, number of events= 194 
+
+             coef exp(coef) se(coef)     z Pr(>|z|)    
+get(svar)  2.4801   11.9419   0.2364 10.49   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+          exp(coef) exp(-coef) lower .95 upper .95
+get(svar)     11.94    0.08374     7.514     18.98
+
+Concordance= 0.539  (se = 0.009 )
+Likelihood ratio test= 60.67  on 1 df,   p=7e-15
+Wald test            = 110.1  on 1 df,   p=<2e-16
+Score (logrank) test = 179.4  on 1 df,   p=<2e-16
+
+[1] ""
+[1] "Covariate :NotSecuringLibraries"
+[1] "exp(coef) :11.941879300951"
+[1] "p-value (Cox hazard model) :9.31708543838982e-26"
+[1] "p-value (Porportional hazards assumption) :0.00353098771662096"
+[1] ""
+[1] "Result for: HardCodingLibraries"
+[1] "========================================================================="
+Call:
+coxph(formula = Surv(SurvivalTime, inducingflag) ~ get(svar), 
+    data = mydata)
+
+  n= 3024, number of events= 194 
+
+             coef exp(coef) se(coef)     z Pr(>|z|)    
+get(svar)  2.7940   16.3456   0.3858 7.243  4.4e-13 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+          exp(coef) exp(-coef) lower .95 upper .95
+get(svar)     16.35    0.06118     7.674     34.81
+
+Concordance= 0.511  (se = 0.004 )
+Likelihood ratio test= 25.72  on 1 df,   p=4e-07
+Wald test            = 52.46  on 1 df,   p=4e-13
+Score (logrank) test = 96.81  on 1 df,   p=<2e-16
+
+[1] ""
+[1] "Covariate :HardCodingLibraries"
+[1] "exp(coef) :16.3456413827606"
+[1] "p-value (Cox hazard model) :4.39712895570887e-13"
+[1] "p-value (Porportional hazards assumption) :8.1836000721167e-06"
+[1] ""
+[1] "Result for: NotUsingRelativePath"
+[1] "========================================================================="
+[1] ""
+[1] "Covariate :NotUsingRelativePath count: 0"
+[1] "exp(coef) : NA"
+[1] "p-value (Cox hazard model) : NA"
+[1] "p-value (Porportional hazards assumption) : NA"
+[1] ""
+[1] "Result for: MemoryManagementMismatch"
+[1] "========================================================================="
+[1] ""
+[1] "Covariate :MemoryManagementMismatch count: 0"
+[1] "exp(coef) : NA"
+[1] "p-value (Cox hazard model) : NA"
+[1] "p-value (Porportional hazards assumption) : NA"
+[1] ""
+[1] "Result for: LocalReferencesAbuse"
+[1] "========================================================================="
+[1] ""
+[1] "Covariate :LocalReferencesAbuse count: 0"
+[1] "exp(coef) : NA"
+[1] "p-value (Cox hazard model) : NA"
+[1] "p-value (Porportional hazards assumption) : NA"

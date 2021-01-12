@@ -1,0 +1,242 @@
+[1] "Survival analysis results for all smell for conscrypt"
+[1] "================================================================"
+[1] "C:\\Users\\C5265284\\PycharmProjects\\SurvivalAnalysis\\data\\survival\\cleaned\\conscrypt_merged2_cleaned_time.csv"
+Call:
+coxph(formula = Surv(SurvivalTime, inducingflag) ~ Smelly, data = mydata)
+
+  n= 6762, number of events= 446 
+
+         coef exp(coef) se(coef)     z Pr(>|z|)    
+Smelly 0.9548    2.5983   0.0962 9.926   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+       exp(coef) exp(-coef) lower .95 upper .95
+Smelly     2.598     0.3849     2.152     3.137
+
+Concordance= 0.592  (se = 0.012 )
+Likelihood ratio test= 90.25  on 1 df,   p=<2e-16
+Wald test            = 98.52  on 1 df,   p=<2e-16
+Score (logrank) test = 106.2  on 1 df,   p=<2e-16
+
+       chisq df       p
+Smelly  14.9  1 0.00011
+GLOBAL  14.9  1 0.00011
+[1] "Covariate :Smelly"
+[1] "exp(coef) :2.59824879315165"
+[1] "p-value (Cox hazard model) :3.21772070959261e-23"
+[1] "p-value (Porportional hazards assumption) :0.000112209451837691"
+
+
+[1] "Survival analysis results for all smell for frostwire"
+[1] "================================================================"
+[1] "C:\\Users\\C5265284\\PycharmProjects\\SurvivalAnalysis\\data\\survival\\cleaned\\frostwire_merged2_cleaned_time.csv"
+Call:
+coxph(formula = Surv(SurvivalTime, inducingflag) ~ Smelly, data = mydata)
+
+  n= 24770, number of events= 722 
+
+          coef exp(coef) se(coef)     z Pr(>|z|)    
+Smelly 1.13865   3.12254  0.07468 15.25   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+       exp(coef) exp(-coef) lower .95 upper .95
+Smelly     3.123     0.3203     2.697     3.615
+
+Concordance= 0.631  (se = 0.009 )
+Likelihood ratio test= 222.5  on 1 df,   p=<2e-16
+Wald test            = 232.4  on 1 df,   p=<2e-16
+Score (logrank) test = 258.5  on 1 df,   p=<2e-16
+
+       chisq df    p
+Smelly 0.217  1 0.64
+GLOBAL 0.217  1 0.64
+[1] "Covariate :Smelly"
+[1] "exp(coef) :3.12254194912972"
+[1] "p-value (Cox hazard model) :1.74878422645325e-52"
+[1] "p-value (Porportional hazards assumption) :0.641346437942626"
+
+
+
+[1] "Survival analysis results for all smell for javacpp"
+[1] "================================================================"
+[1] "C:\\Users\\C5265284\\PycharmProjects\\SurvivalAnalysis\\data\\survival\\cleaned\\javacpp_merged2_cleaned_time.csv"
+Call:
+coxph(formula = Surv(SurvivalTime, inducingflag) ~ Smelly, data = mydata)
+
+  n= 3024, number of events= 194 
+
+         coef exp(coef) se(coef)     z Pr(>|z|)    
+Smelly 0.8663    2.3781   0.1563 5.541    3e-08 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+       exp(coef) exp(-coef) lower .95 upper .95
+Smelly     2.378     0.4205      1.75     3.231
+
+Concordance= 0.572  (se = 0.016 )
+Likelihood ratio test= 27.18  on 1 df,   p=2e-07
+Wald test            = 30.71  on 1 df,   p=3e-08
+Score (logrank) test = 32.59  on 1 df,   p=1e-08
+
+       chisq df    p
+Smelly  1.93  1 0.16
+GLOBAL  1.93  1 0.16
+[1] "Covariate :Smelly"
+[1] "exp(coef) :2.37814240469108"
+[1] "p-value (Cox hazard model) :3.00364762874105e-08"
+[1] "p-value (Porportional hazards assumption) :0.164283990273178"
+
+
+[1] "Survival analysis results for all smell for jna"
+[1] "================================================================"
+[1] "C:\\Users\\C5265284\\PycharmProjects\\SurvivalAnalysis\\data\\survival\\cleaned\\jna_merged2_cleaned_time.csv"
+Call:
+coxph(formula = Surv(SurvivalTime, inducingflag) ~ Smelly, data = mydata)
+
+  n= 20199, number of events= 633 
+
+         coef exp(coef) se(coef)     z Pr(>|z|)    
+Smelly 1.6160    5.0328   0.1378 11.72   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+       exp(coef) exp(-coef) lower .95 upper .95
+Smelly     5.033     0.1987     3.841     6.594
+
+Concordance= 0.539  (se = 0.006 )
+Likelihood ratio test= 90.88  on 1 df,   p=<2e-16
+Wald test            = 137.5  on 1 df,   p=<2e-16
+Score (logrank) test = 170.1  on 1 df,   p=<2e-16
+
+       chisq df       p
+Smelly  59.5  1 1.3e-14
+GLOBAL  59.5  1 1.3e-14
+[1] "Covariate :Smelly"
+[1] "exp(coef) :5.03283766694475"
+[1] "p-value (Cox hazard model) :9.52648126318984e-32"
+[1] "p-value (Porportional hazards assumption) :1.25391643755605e-14"
+
+
+
+[1] "Survival analysis results for all smell for OpenDDS"
+[1] "================================================================"
+[1] "C:\\Users\\C5265284\\PycharmProjects\\SurvivalAnalysis\\data\\survival\\cleaned\\OpenDDS_merged2_cleaned_time.csv"
+Call:
+coxph(formula = Surv(SurvivalTime, inducingflag) ~ Smelly, data = mydata)
+
+  n= 96155, number of events= 1799 
+
+          coef exp(coef) se(coef)      z Pr(>|z|)    
+Smelly -1.4744    0.2289   0.2438 -6.048 1.47e-09 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+       exp(coef) exp(-coef) lower .95 upper .95
+Smelly    0.2289      4.368     0.142    0.3691
+
+Concordance= 0.516  (se = 0.001 )
+Likelihood ratio test= 62.46  on 1 df,   p=3e-15
+Wald test            = 36.58  on 1 df,   p=1e-09
+Score (logrank) test = 43.7  on 1 df,   p=4e-11
+
+          chisq df    p
+Smelly 9.97e-05  1 0.99
+GLOBAL 9.97e-05  1 0.99
+[1] "Covariate :Smelly"
+[1] "exp(coef) :0.228920698466365"
+[1] "p-value (Cox hazard model) :1.46848125911177e-09"
+[1] "p-value (Porportional hazards assumption) :0.992031376595576"
+
+
+
+[1] "Survival analysis results for all smell for pljava"
+[1] "================================================================"
+[1] "C:\\Users\\C5265284\\PycharmProjects\\SurvivalAnalysis\\data\\survival\\cleaned\\pljava_merged2_cleaned_time.csv"
+Call:
+coxph(formula = Surv(SurvivalTime, inducingflag) ~ Smelly, data = mydata)
+
+  n= 6930, number of events= 200 
+
+         coef exp(coef) se(coef)     z Pr(>|z|)    
+Smelly 0.5906    1.8051   0.1478 3.997 6.42e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+       exp(coef) exp(-coef) lower .95 upper .95
+Smelly     1.805      0.554     1.351     2.411
+
+Concordance= 0.558  (se = 0.017 )
+Likelihood ratio test= 14.92  on 1 df,   p=1e-04
+Wald test            = 15.97  on 1 df,   p=6e-05
+Score (logrank) test = 16.44  on 1 df,   p=5e-05
+
+       chisq df      p
+Smelly  9.03  1 0.0027
+GLOBAL  9.03  1 0.0027
+[1] "Covariate :Smelly"
+[1] "exp(coef) :1.80507505625529"
+[1] "p-value (Cox hazard model) :6.42461876895721e-05"
+[1] "p-value (Porportional hazards assumption) :0.00265696078908369"
+
+
+
+[1] "Survival analysis results for all smell for realm-java"
+[1] "================================================================"
+[1] "C:\\Users\\C5265284\\PycharmProjects\\SurvivalAnalysis\\data\\survival\\cleaned\\realm-java_merged2_cleaned_time.csv"
+Call:
+coxph(formula = Surv(SurvivalTime, inducingflag) ~ Smelly, data = mydata)
+
+  n= 10648, number of events= 826 
+
+          coef exp(coef) se(coef)     z Pr(>|z|)    
+Smelly 1.01035   2.74655  0.07967 12.68   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+       exp(coef) exp(-coef) lower .95 upper .95
+Smelly     2.747     0.3641     2.349     3.211
+
+Concordance= 0.571  (se = 0.007 )
+Likelihood ratio test= 134  on 1 df,   p=<2e-16
+Wald test            = 160.8  on 1 df,   p=<2e-16
+Score (logrank) test = 175  on 1 df,   p=<2e-16
+
+       chisq df       p
+Smelly  15.3  1 9.1e-05
+GLOBAL  15.3  1 9.1e-05
+[1] "Covariate :Smelly"
+[1] "exp(coef) :2.74655281717844"
+[1] "p-value (Cox hazard model) :7.48719552486121e-37"
+[1] "p-value (Porportional hazards assumption) :9.11237227365074e-05"
+
+
+[1] "Survival analysis results for all smell for rocksdb"
+[1] "================================================================"
+[1] "C:\\Users\\C5265284\\PycharmProjects\\SurvivalAnalysis\\data\\survival\\cleaned\\rocksdb_merged2_cleaned_time.csv"
+Call:
+coxph(formula = Surv(SurvivalTime, inducingflag) ~ Smelly, data = mydata)
+
+  n= 22914, number of events= 3245 
+
+          coef exp(coef) se(coef)     z Pr(>|z|)    
+Smelly 0.49470   1.64001  0.04697 10.53   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+       exp(coef) exp(-coef) lower .95 upper .95
+Smelly      1.64     0.6098     1.496     1.798
+
+Concordance= 0.526  (se = 0.003 )
+Likelihood ratio test= 99.44  on 1 df,   p=<2e-16
+Wald test            = 110.9  on 1 df,   p=<2e-16
+Score (logrank) test = 113.2  on 1 df,   p=<2e-16
+
+       chisq df       p
+Smelly  19.1  1 1.3e-05
+GLOBAL  19.1  1 1.3e-05
+[1] "Covariate :Smelly"
+[1] "exp(coef) :1.64001004473252"
+[1] "p-value (Cox hazard model) :6.16184977108071e-26"
+[1] "p-value (Porportional hazards assumption) :1.25819298039223e-05"
